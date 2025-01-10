@@ -85,7 +85,8 @@ content = html.Div(
 [html.Div(
              [dbc.Row(
                 [dbc.Col([dcc.Graph(id='graph1', figure = blank_fig())]), 
-                 dbc.Col([dcc.Graph(id='graph2', figure = blank_fig())])]), dbc.Row(
+                 dbc.Col([dcc.Graph(id='graph2', figure = blank_fig())])]), 
+              dbc.Row(
                 [dbc.Col([dcc.Graph(id='graph3', figure = blank_fig())]), 
                  dbc.Col([dcc.Graph(id='graph4', figure = blank_fig())])])])
 ], id="page-content", style=CONTENT_STYLE)
