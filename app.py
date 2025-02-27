@@ -10,7 +10,7 @@ from dash.dependencies import Input, Output
 from dash import no_update
 
 dirpath = os.getcwd()
-input_dir = os.path.join(dirpath, "..", "out_gaus_simple")
+input_dir = os.path.join(dirpath, "data")
 file_list = os.listdir(input_dir)
 
 file_dict = [{'label': "_".join(file.split("_")[:5]), "value": file} for file in file_list]
